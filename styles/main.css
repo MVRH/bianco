@@ -270,7 +270,19 @@ white-space: normal;
 /*Embeddagram*/
 
 
-#slideshow{
+#
+
+#instafeed{
+	padding-top:10px;
+	padding-bottom:10%;}
+#instafeed li{
+	display: block;
+	float:left;
+	width:33%;}
+#instafeed li a img{
+	margin:0;
+	width: 100%;
+	height: auto;}{
 	padding-top:10px;
 	padding-bottom:10%;}
 #slideshow li{
@@ -278,6 +290,20 @@ white-space: normal;
 	float:left;
 	width:33%;}
 #slideshow li a img{
+	margin:0;
+	width: 100%;
+	height: auto;}
+	
+	
+	
+#instafeed{
+	padding-top:10px;
+	padding-bottom:10%;}
+#instafeed li{
+	display: block;
+	float:left;
+	width:33%;}
+#instafeed li a img{
 	margin:0;
 	width: 100%;
 	height: auto;}
