@@ -1,7 +1,22 @@
 <html>
 <head>
+	<script type="text/javascript" src="path/to/instafeed.min.js"></script>
 	</head>
 	<body>
-<script id="embedagram" type="text/javascript" src="http://labs.phunky.co.uk/embedagram/embedagram.js" data-username="mvrh" data-count="12" /></script>
-</body>
+
+<script type="text/javascript">
+    var feed = new Instafeed({
+        get: 'user',
+        userId: 'biancomusic',
+        clientId: '330692721',
+        limit: '9',
+        resolution: 'standard_resolution',
+        template: '<li><a href="{{link}}"><img src="{{image}}"/></a></li>'
+    });
+    feed.run();
+</script>
+      
+
+
+	</body>
 </html>
