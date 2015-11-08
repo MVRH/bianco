@@ -267,34 +267,7 @@ white-space: normal;
 
 
 
-/*Embeddagram*/
-
-
-#
-
-#instafeed{
-	padding-top:10px;
-	padding-bottom:10%;}
-#instafeed li{
-	display: block;
-	float:left;
-	width:33%;}
-#instafeed li a img{
-	margin:0;
-	width: 100%;
-	height: auto;}{
-	padding-top:10px;
-	padding-bottom:10%;}
-#slideshow li{
-	display: block;
-	float:left;
-	width:33%;}
-#slideshow li a img{
-	margin:0;
-	width: 100%;
-	height: auto;}
-	
-	
+/*Instafeed*/
 	
 #instafeed{
 	padding-top:10px;
