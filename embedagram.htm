@@ -29,12 +29,20 @@
     var feed = new Instafeed({
         get: 'user',
         userId: 'biancomusic',
-        clientId: '330692721',
-        template: '<li><a href="{{link}}"><img src="{{image}}"/></a></li>'
+        accessToken: '330692721',
+        template: '<a href="{{link}}"><img src="{{image}}" /></a>'
     });
     feed.run();
 </script>
       
+      <script type="text/javascript">
+    var userFeed = new Instafeed({
+        get: 'user',
+        userId: 'MVRH',
+        accessToken: '224009011'
+    });
+    userFeed.run();
+</script>
 
 
 	</body>
